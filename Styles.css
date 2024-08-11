@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans";
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* HEADER ITEMS */
+header {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 0.5fr;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+}
+
+.name {
+  border-right: solid 4px #555;
+  text-align: center;
+  font-weight: 600;
+  margin: 10%;
+  padding-right: 10%;
+  line-height: 1;
+}
+
+.ifmga-logo {
+  max-width: 200px;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/3;
+}
+
+.nzmga-logo {
+  max-width: 200px;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/4;
+}
+
+/* DROPDOWN MENU */
+nav {
+  z-index: 1000;
+}
+
+#hamburger-menu {
+  display: grid;
+}
+.hamburger-button {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 12px;
+  align-self: stretch;
+  justify-self: end;
+}
+
+.nav-links {
+  display: none;
+  background-color: #333;
+  color: white;
+  position: absolute; /* Ensure it floats over content */
+  top: 100%; /* Position below the button */
+  left: 0; /* Align to the left edge of the button */
+  width: 100%; /* Match the width of the container */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+.nav-links a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #111;
+}
+
+/* Photo Gallery at start */
+
+.container {
+  text-align: center;
+}
+
+.slideshow-container {
+  box-sizing: border-box;
+  width: 100%;
+
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Article paragrapghs */
+.intro {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 5%;
+  line-height: 1.4;
+}
+
+.short-bio {
+  grid-row: 1/3;
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+}
+
+.p1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+p {
+  padding-left: 5%;
+}
+
+/* Test for Product grid */
+h3 {
+  text-align: center;
+  text-decoration: solid;
+}
+
+/* Grid for products */
+.products {
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4%;
+}
+
+.product {
+  font-weight: bolder;
+}
+/* CSS for mountaineering slideshow link */
+.mountain-slideshow {
+  grid-column: 1/2;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+
+.fade:hover {
+  transform: scale(1.01);
+}
+ul {
+  margin-left: 15px;
+}
+
+.exp-p {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  margin-top: 80px;
+  margin: 50px;
+}
+.footerimg {
+  max-width: 200px;
+  width: 100%;
+}
+
+#contact-btn {
+  background-color: #ff6b6b;
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+  border-radius: 15px;
+  flex: auto;
+  margin: 2% 5%;
+  border: 0;
+}
+
+#contact-btn:hover {
+  transform: scale(1.01);
+}
+
+/* SKI TOURING PAGE */
+main-header {
+  display: inline-block;
+  text-align: center;
+}

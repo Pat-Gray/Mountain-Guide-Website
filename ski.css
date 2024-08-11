@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+}
+
+.gallery {
+  padding: 2rem 5%;
+}
+.gallery .image-container {
+  columns: 15rem 3;
+  gap: 0.8rem;
+}
+
+.gallery .image-container img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.9rem;
+}
+
+.gallery .image-container img:hover {
+  transform: scale(1.01);
+}
