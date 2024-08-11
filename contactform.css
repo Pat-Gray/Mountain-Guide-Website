@@ -1,0 +1,75 @@
+.contact-img1 {
+  border-radius: 1px;
+}
+
+.flex1 {
+  display: flex;
+}
+.contact {
+  line-height: 1.8;
+  padding-top: 2%;
+  font-size: 1.2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.contact1 {
+  line-height: 1.2;
+  padding-bottom: 5%;
+  font-style: italic;
+}
+
+.contact2 {
+  font-size: 1.3rem;
+  padding-bottom: 5%;
+}
+
+.contact-flex {
+  display: flex;
+  text-align: center;
+
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.flex-1,
+.flex-2 {
+  background-color: #dee2e6;
+  border: solid #495057 2px;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+label {
+  display: none;
+}
+
+input,
+textarea {
+  font-size: 18px;
+  width: 100%;
+  background-color: #f1f3f5;
+  border: 2px #868e96 solid;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #868e96;
+  border-radius: 15px;
+  color: #e9ecef;
+}
+
+.submit:hover {
+  background-color: #343a40;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+footer:p {
+  display: inline;
+  padding: 0;
+}

@@ -237,3 +237,11 @@ main-header {
   display: inline-block;
   text-align: center;
 }
+
+body {
+  margin-bottom: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}

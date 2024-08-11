@@ -27,3 +27,7 @@ h1 {
 .gallery .image-container img:hover {
   transform: scale(1.01);
 }
+
+p {
+  line-height: 1.4;
+}
